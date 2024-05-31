@@ -1,0 +1,62 @@
+/* General styles for the body to ensure proper centering */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #E4ECF5; /* Match the light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Landing Page */
+  .landing-page {
+    position: relative;
+    width: 430px;
+    height: 932px;
+    background: radial-gradient(80.23% 17.08% at 13.49% 43.45%, #E9F4F8 0%, #E4ECF5 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Background Image */
+  .background-image {
+    position: relative;
+    width: 378px;
+    height: 434px;
+    margin-top: 194px; /* Positioning adjustment to align vertically */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* FIPON TECH - Main Heading */
+  .fipon-tech {
+    position: relative;
+    margin-top: 32px; /* Adjusted top margin for spacing */
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 52px;
+    text-align: center;
+    color: #0085FF;
+  }
+  
+  /* Subtitle - Peternak ikan modern */
+  .subtitle {
+    position: relative;
+    margin-top: 16px; /* Adjusted top margin for spacing */
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #0085FF;
+  }
+  
